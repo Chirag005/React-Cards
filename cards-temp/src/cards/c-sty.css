@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+img{
+    height: 200px;
+    position: relative;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    display:inline-block;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    
+}
+
+.card:hover {
+    box-shadow: 5px 15px 25px 1px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-style: bold;
+    padding: 30px 0px 0px 0px;
+    padding-top: 30px;
+    line-height: 15px;
+    font-family: "Glacial Indifference",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif !important;
+}
+
+.card-text{
+    font-size: 22px;
+    padding: 0px;
+    color: #22314f;
+    font-size: 1.125rem;
+    padding: 0px 0px 10px 0px;
+    font-family: "Glacial Indifference",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif !important;
+}
+
+a {
+    margin: 9px;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+
+.Facebook{
+    color: black;
+}
+.Instagram{
+    color: black;
+}
+.Linkedin{
+    color: black;
+}
+.Twitter{
+    color: black;
+}
+
+
+.Facebook:hover {
+    transform: translateY(-4px);
+    color: #3b5998;
+}
+.Instagram:hover {
+    transform: translateY(-4px);
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+    border-radius: 30%;
+    width: 32px;
+    height: 32px;
+}
+.Linkedin:hover {
+    transform: translateY(-4px);
+    color: #0e76a8;
+}
+.Twitter:hover {
+    transform: translateY(-4px);
+    color: #00acee;
+}
