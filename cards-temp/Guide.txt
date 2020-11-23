@@ -1,0 +1,23 @@
+### First we need to create a react app and by pasting the below command creates the app with that given name.
+
+npx create-react-app cards-temp
+
+
+### Below code enters the terminal into the project 'cards-temp'
+
+cd cards-temp
+
+
+### Before running the project, open the visual studio code terminal, come to that particular file directory and paste the below command.
+### The below command installs the various fonts that is offered to a react app from fontAwesome website.(Without this step the final outcome will not be same, as the social buttons used in this project needs this installed)
+
+npm install --save @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons
+
+
+### Now react app is hosted to your local brower, usually by the address - "http://localhost:3000/"
+
+npm start
+
+
+
+
